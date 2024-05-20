@@ -1,0 +1,33 @@
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .game-container {
+            position: relative;
+            width: 800px;
+            height: 600px;
+            border: 2px solid #000;
+            background-color: #e0e0e0;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+            background-color: #1a1a1a;
+        }
+
+        #scoreboard, #coinCounter {
+            position: absolute;
+            top: 10px;
+            font-size: 24px;
+            color: #ffffff;
+        }
+
+        #coinCounter {
+            right: 10px;
+        }
